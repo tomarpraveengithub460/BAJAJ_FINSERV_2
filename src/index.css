@@ -24,11 +24,24 @@ a:hover {
 
 body {
   margin: 0;
+  padding: 20px; /* small padding to avoid touching edges */
   display: flex;
-  place-items: center;
+  justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #f0f2f5; /* optional: lighter background */
 }
+
+.form-container {
+  width: 100%;
+  max-width: 600px; /* form won't stretch too much */
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 
 h1 {
   font-size: 3.2em;
